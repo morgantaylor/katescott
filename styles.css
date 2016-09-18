@@ -1,6 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background:#000000;	
+}
+#background {
+	background-image: url("http://mtwebmedia.com/katescott/img/kate@1200.png");
+	background-repeat: no-repeat;
+	background-position:center top;
+}
+.main {
+	margin-top:550px;
+	padding: 1em 2em;
+}
 .center {
 	display:block;
 	position:relative;
@@ -8,54 +21,86 @@
 	margin:0 auto;
 	width:100%;	
 }
-.photo {
-	max-width:600px;
-	width:100%;
-	margin:50px auto;
-	display:block;
-	position:relative;
-	
-}
-.photoImg {
-	display:block;
-	position:relative;
-	max-width:300px;
-	width:100%;
-	border-radius:50%;	
-	text-align:center;
-	margin:0 auto;
+.social {
+	font-size:.8em;	
 }
 .menu {
-	display:block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	display: -webkit-flex; /* Safari */
+  	display: flex;
+	-webkit-flex-flow: row wrap; /* Safari */
+  	flex-flow: row wrap;
+	-webkit-justify-content: center; /* Safari */
+  	justify-content: center;
+	-webkit-align-items: center; /* Safari */
+    align-items: center;
 	position:relative;
-	max-width:800px;
 	width:100%;
 	height:auto;
 	text-align:center;
-	margin:30px auto;	
+	margin:20px auto;	
 }
 .link {
-	display: inline-block;
-    position: relative;
-    margin: 0px 10px;
-    width: 225px;
-    height: 150px;
-    vertical-align: top;
-    text-align: center;
-    font-size: .9em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    -webkit-flex: 1 0 auto; /* Safari */
+	flex: 1 0 auto;
+  	-webkit-align-content: space-between; /* Safari */
+  	align-content: space-between;
 }
-#twitter {
+#social {
 	text-decoration:none;
 	color:#0080FF;	
 }
-#twitter:hover {
+#social:hover {
 	color:#0066cc;	
 }
 
 /* Typesettings Overrides */
-.typesettings a {
-    color: #555;
+.typesettings {
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
 }
-.typesettings a:hover {
-    color: #222;
+.typesettings p {
+	margin:0;
+}
+.typesettings .link a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #888;
+	font-size: .6em;
+	text-align:center;
+	margin:auto;	
+	font-weight:400;
+	letter-spacing:.05em;
+	text-transform:uppercase;
+}
+.typesettings .link a:hover, .typesettings .link a:visited {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #888;
+}
+.typesettings h1:first-child+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-transform:none;	
+	letter-spacing:.04em
+}
+.typesettings h1 {
+	font-size:1.4em;
+}
+.typesettings h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin-top:50px;	
+}
+.typesettings #social:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-bottom:none;	
+}
+.typesettings.dark {
+	background:none;	
+}
+.typesettings.dark a:visited {
+    color: #888;
+    border-color: #888;
+}
+.typesettings.dark a:hover {
+	color:#fff;
+	border-color: #fff;
 }

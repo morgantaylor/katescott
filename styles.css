@@ -48,7 +48,8 @@ body {
   	-webkit-align-content: space-between; /* Safari */
   	align-content: space-between;
 }
-.typesettings a.social-btn {
+.typesettings a.social-btn,
+.typesettings a.social-btn:visited {
 	text-decoration:none;
 	color:#0080FF;	
 }
@@ -76,34 +77,21 @@ body {
 }
 .typesettings .link a:hover, .typesettings .link a:visited {
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    color: #888;
-}
-.typesettings h1:first-child+h2 {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	text-transform:none;	
-	letter-spacing:.04em
+    color: #fff;
 }
 .typesettings h1 {
 	font-size:1.4em;
 	color:#fff;
 }
-.typesettings h3 {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	text-align:center;
-	margin-top:50px;	
-}
 .typesettings .social-btn:link {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	border-bottom:none;	
 }
-.typsettings.dark {
-	background-color: rgba(0,0,0,.7);	
-}
-.typesettings.dark a:visited {
+.typesettings a:visited {
     color: #888;
     border-color: #888;
 }
-.typesettings.dark a:hover {
+.typesettings a:hover {
 	color:#fff;
 	border-color: #fff;
 }

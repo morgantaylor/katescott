@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+.center {
+	display:block;
+	position:relative;
+	text-align:center;
+	margin:0 auto;
+	width:100%;	
+}
+.photo {
+	max-width:600px;
+	width:100%;
+	margin:50px auto;
+	display:block;
+	position:relative;
+	
+}
+.photoImg {
+	display:block;
+	position:relative;
+	max-width:300px;
+	width:100%;
+	border-radius:50%;	
+	text-align:center;
+	margin:0 auto;
+}
+.menu {
+	display:block;
+	position:relative;
+	max-width:800px;
+	width:100%;
+	height:auto;
+	text-align:center;
+	margin:30px auto;	
+}
+.link {
+	display: inline-block;
+    position: relative;
+    margin: 0px 10px;
+    width: 225px;
+    height: 150px;
+    vertical-align: top;
+    text-align: center;
+    font-size: .9em;
+}
+#twitter {
+	text-decoration:none;
+	color:#0080FF;	
+}
+#twitter:hover {
+	color:#0066cc;	
+}
+
+/* Typesettings Overrides */
+.typesettings a {
+    color: #555;
+}
+.typesettings a:hover {
+    color: #222;
+}

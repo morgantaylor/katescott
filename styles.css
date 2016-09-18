@@ -47,11 +47,11 @@ body {
   	-webkit-align-content: space-between; /* Safari */
   	align-content: space-between;
 }
-#social {
+.social-btn {
 	text-decoration:none;
 	color:#0080FF;	
 }
-#social:hover {
+.social-btn:hover {
 	color:#0066cc;	
 }
 
@@ -89,7 +89,7 @@ body {
 	text-align:center;
 	margin-top:50px;	
 }
-.typesettings #social:link {
+.typesettings .social-btn:link {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	border-bottom:none;	
 }
